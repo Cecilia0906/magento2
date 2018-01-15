@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c66c0c09f75cd102a7ae97c93c8ffe96",
-    "content-hash": "f5372385eabf5320c0027f3fca0462c5",
+    "hash": "71b48b0891a49e86ee67b580a3b3e1a6",
+    "content-hash": "eac3e466cab05f035ff85f4297f6958b",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -673,6 +673,40 @@
                 "terminal"
             ],
             "time": "2015-01-18 14:31:58"
+        },
+        {
+            "name": "magefan/module-blog",
+            "version": "2.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magefan/module-blog.git",
+                "reference": "96d6ae90a6af5a3acaca63cd575f19584bd44f4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magefan/module-blog/zipball/96d6ae90a6af5a3acaca63cd575f19584bd44f4f",
+                "reference": "96d6ae90a6af5a3acaca63cd575f19584bd44f4f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.6.5 || >=7.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magefan\\Blog\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Implements Blog functionality on Magento 2 store",
+            "time": "2018-01-10 18:39:02"
         },
         {
             "name": "magento/composer",
